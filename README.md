@@ -29,22 +29,22 @@ With a proxy (e.g. Burp listening on 127.0.0.1:8081):
 go run xssfury.go -r req.txt -p payloads.txt -x http://127.0.0.1:8081
 ```
 
-#Requirements
+##Requirements
 
 Go 1.18 or later
 No third-party dependencies
 
-#Notes
+##Notes
 
 The Host: header in the request template is used to construct the request target.
 Make sure you are testing only authorized and safe environments.
 XSSFURY does not validate targets — be mindful when configuring templates.
 
-#License
+##License
 
 MIT License
 
-#Author
+##Author
 
 Developed by Przem for research and security testing automation.
 
