@@ -7,13 +7,12 @@ It works by injecting payloads into customizable HTTP request templates, replaci
 
 ## Features
 
-- HTTP request templating via `req.txt` with placeholder support (`§`)
+- HTTP request templating via request test file with placeholder support (`§`)
 - Concurrent request execution (default: 50 workers)
 - Supports JSON, form-urlencoded, and arbitrary request body formats
 - Automatic `Content-Length` calculation
 - Proxy support (e.g. Burp Suite, OWASP ZAP)
 - Custom headers including `Host`, `User-Agent`, etc.
-- Simple test server (`testserver.go`) for local reflection validation
 
 ---
 
